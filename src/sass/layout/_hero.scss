@@ -10,7 +10,7 @@ $gradient-2-color: hsl(253, 28%, 36%);
   );
 
   height: 90vh;
-  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,6 +20,5 @@ $gradient-2-color: hsl(253, 28%, 36%);
     font-size: 4.8rem;
     font-weight: 400;
     margin-top: -7rem;
-    animation: typing 3.5s steps(40, end);
   }
 }
