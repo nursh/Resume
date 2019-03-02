@@ -1,0 +1,25 @@
+$gradient-1-color: hsl(204, 47%, 32%);
+$gradient-2-color: hsl(253, 28%, 36%);
+
+.hero {
+
+  background: linear-gradient(
+    to right,
+    $gradient-1-color,
+    $gradient-2-color
+  );
+
+  height: 90vh;
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__text {
+    color: white;
+    font-size: 4.8rem;
+    font-weight: 400;
+    margin-top: -7rem;
+    animation: typing 3.5s steps(40, end);
+  }
+}
