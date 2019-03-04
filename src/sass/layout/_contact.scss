@@ -1,0 +1,29 @@
+.contact {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  &__left, 
+  &__right {
+    display: grid;
+    place-items: center;
+    padding: 10rem 0;
+  }
+
+  &__left {
+    background: linear-gradient(
+      to right,
+      $gradient-1-color,
+      $gradient-2-color
+    );
+    color: white;
+  }
+
+  &__right {
+    background: hsl(210, 36%, 96%);
+  }
+
+  &__text {
+    margin-bottom: 1.5rem;
+  }
+}

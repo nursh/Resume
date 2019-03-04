@@ -1,5 +1,8 @@
 import React from 'react'
 
+
+import sprite from './images/sprite.svg';
+
 export const Background: React.FC = () => (
   <section className="background">
     <div className="background__items">
@@ -11,7 +14,7 @@ export const Background: React.FC = () => (
         </div>
       </div>
       <div className="background__item">
-        <h3>Skills</h3>
+        <h3>Technologies</h3>
         <ul className="skills">
           <li>HTML5</li>
           <li>CSS3 / Sass</li>
@@ -20,14 +23,19 @@ export const Background: React.FC = () => (
           <li>ReactJS</li>
           <li>Java</li>
           <li>SpringMVC</li>
-          <li>Node</li>
+          <li>Node.js</li>
           <li>GraphQL</li>
           <li>Docker</li>
-          <li>MySQL</li>
+          <li>SQL database</li>
           <li>MongoDB</li>
-          <li>PostgreSQL</li>
           <li>Version Control (Git) &amp; Github</li>
         </ul>
+      </div>
+      <div className="background__item">
+        <h3>GitHub</h3>
+        <a href="https://github.com/nursh" target="_blank">
+          Nur-sh GitHub
+        </a>
       </div>
     </div>
   </section>
