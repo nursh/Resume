@@ -7,7 +7,7 @@
   &__right {
     display: grid;
     place-items: center;
-    padding: 10rem 0;
+    padding: 10rem 10rem;
   }
 
   &__left {
@@ -21,6 +21,7 @@
 
   &__right {
     background: hsl(210, 36%, 96%);
+    text-align: left;
   }
 
   &__text {

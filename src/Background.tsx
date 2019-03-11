@@ -29,6 +29,9 @@ export const Background: React.FC = () => (
           <li>SQL database</li>
           <li>MongoDB</li>
           <li>Version Control (Git) &amp; Github</li>
+          <li>REST API design</li>
+          <li>Stripe</li>
+          <li>TravisCI</li>
         </ul>
       </div>
       <div className="background__item">
