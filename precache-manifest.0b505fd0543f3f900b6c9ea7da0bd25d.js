@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/Resume/static/media/Lission project page.c975876c.png"
   },
   {
-    "revision": "50c5f40b1e0a793c47b9",
+    "revision": "da02315aef0fa82d90e1",
     "url": "/Resume/static/css/main.07e3b42a.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/Resume/static/media/Trouse Academy.e7bc53be.png"
   },
   {
-    "revision": "50c5f40b1e0a793c47b9",
-    "url": "/Resume/static/js/main.50c5f40b.chunk.js"
+    "revision": "da02315aef0fa82d90e1",
+    "url": "/Resume/static/js/main.da02315a.chunk.js"
   },
   {
     "revision": "59bce9d27ed783401ed331bad18be2ac",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/Resume/static/media/Cauldrom.baf8e686.png"
   },
   {
-    "revision": "d4448787e53281afd3c15d3f3bb9d758",
+    "revision": "27c37ce4571626c3371ab15bbe112ddb",
     "url": "/Resume/index.html"
   }
 ];
