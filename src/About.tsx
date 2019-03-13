@@ -2,11 +2,13 @@ import React from 'react'
 
 export const About: React.FC = () => (
   <section className="about">
-    <h2 className="section__title">About Me</h2>
+    <h2 className="section__title">About</h2>
     <p className="about__text">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, sed.
-      Vel nostrum, in placeat unde atque voluptas 
-      consectetur adipisci est facilis sunt repellat explicabo quibusdam eius beatae culpa magnam voluptatibus.
+      Hello, My name is Nuradeen Sheikh. I am a Full Stack Developer.
+      I continue to learn about technologies and best practices to demonstrate value.
+      I use sites like <strong>Udemy.com</strong> and <strong>Frontendmasters.com</strong> to
+      further my knowledge and to clearly understand the tools I'm already familiar with to increase productivity.
+      I also enjoy cooking and reading about middle eastern history during my free time.
     </p>
   </section>
 )

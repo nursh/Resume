@@ -54,6 +54,7 @@ export const Project: React.FC = () => {
           <p>
             Ruby Continental is a web application for ordering from a restaurant.
             The customer chooses food items from the menu and pays for them at the end.
+            The customer can also update the ordered items by adding or removing items.
           </p>
         </div>
         <div>
@@ -71,7 +72,7 @@ export const Project: React.FC = () => {
         <div>
           <h3>Quizzimo</h3>
           <p>
-            Quizzimo is a web application for answering trivia questions from several categories
+            Quizzimo is a web application for answering trivia questions from several categories.
           </p>
         </div>
         <div>
@@ -90,6 +91,7 @@ export const Project: React.FC = () => {
           <h3>Toronto Waste Lookup</h3>
           <p>
             The application is a search application on JSON data gotten from Toronto Waste.
+            Users can save a search result as a favourite or remove it.
           </p>
         </div>
         <div>
@@ -116,7 +118,6 @@ export const Project: React.FC = () => {
             <img src={cauldrom} alt="Toronto waste screenshot" className="project__image" />
             <div className="project__details">
               <a target="_blank" href="https://github.com/nursh/Cauldrom" className="project__link project__link--github">View GitHub Code</a>
-              <a target="_blank" href="" className="project__link">View Project</a>
             </div>
           </div>
         </div>
