@@ -105,7 +105,7 @@ export const Project: React.FC = () => {
       <hr/>
       <section className="project__info">
         <div>
-          <h3>Cauldrom</h3>
+          <h3>Cauldrom - (Work in Progress)</h3>
           <p>
             Cauldrom is a project management application.
             Each project has members who can edit tasks and add notifications to help with finishing the project.
@@ -115,8 +115,8 @@ export const Project: React.FC = () => {
           <div className="project">
             <img src={cauldrom} alt="Toronto waste screenshot" className="project__image" />
             <div className="project__details">
-              <a target="_blank" href="https://github.com/nursh/Toronto-Waste-Lookup" className="project__link project__link--github">View GitHub Code</a>
-              <a target="_blank" href="http://toronto-waste-lookup.us-east-2.elasticbeanstalk.com/" className="project__link">View Project</a>
+              <a target="_blank" href="https://github.com/nursh/Cauldrom" className="project__link project__link--github">View GitHub Code</a>
+              <a target="_blank" href="" className="project__link">View Project</a>
             </div>
           </div>
         </div>
